@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import favicon from './assets/favicon.png';
+import { Link } from 'react-router-dom';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Endportfolio from './components/Endportfolio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="myportfolio">
+      <div className="App">   
+      <header className="App-header">  
+      <h1 className="hood">
+        <subtitle><img  className="pic" src={favicon} alt="this is my icon" />Byron Hood <br/>
+        Full-Stack Web Developer</subtitle> <br/>
+        <Link className="cta-btn cta-btn--hero"  to="/HireMe">Hire Me</Link>      
+      </h1>         
+      </header>  
+      <div>
+        <About />
+      </div>  
+      <div>
+        <Projects />
+      </div>   
+      <div>
+        <Contact />
+      </div>      
+      <div>
+        <Endportfolio />
+      </div> 
+      </div>     
     </div>
   );
 }
