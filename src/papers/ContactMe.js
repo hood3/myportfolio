@@ -62,8 +62,7 @@ class ContactMe extends Component {
   
     handleChange = (e) => {
       this.setState({ [e.target.name]: e.target.value });
-      if ( this.state.name !== '' && this.state.email !== '' && this.state.message !== '') {
-        console.log('fields filled in');
+      if ( this.state.name !== '' && this.state.email !== '' && this.state.message !== '') {        
         this.setState(prevState => ({
           canSubmit: true
         }));
@@ -117,12 +116,12 @@ class ContactMe extends Component {
         </form>
       }
       {this.state.submitResponse === 'success' &&
-        <div className="jo-contact-form-submission-message jo-contact-form-success">
+        <div className="contact-form-submission-message contact-form-success">
           <div>Thanks for the message! Expect a reply shortly.</div>
         </div>
       }
       {this.state.submitResponse === 'error' &&
-        <div className="jo-contact-form-submission-message jo-contact-form-error">
+        <div className="contact-form-submission-message contact-form-error">
           <div>Your information was not sent. Please try again later.</div>
         </div>
       }
