@@ -197,3 +197,8 @@ li::before{
   .logo{
     padding-left:50px;
   }
+ .contact-form{
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 15rem;     
+ }

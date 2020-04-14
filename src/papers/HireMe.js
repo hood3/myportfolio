@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import ContactMe from '../papers/ContactMe';
 
 
 const HireMe = () => {   
@@ -10,45 +11,51 @@ const HireMe = () => {
         <div className="backbtn">
         <Link className="cta-btn cta-btn--hero" to='/'>Portfolio</Link>         
         </div>     
-        <div className="prices">                  
-            <br/><br/><br/><br/>
-            <h1>Website design price list:</h1><br/>           
+        <div className="prices">         
+            <h1>Website Design and Development</h1><br/><h2>Whether you are a start-up or an enterprise business,
+                my expertise in web development will turn your ideas into an online success.</h2><br/>           
             <p>
                 <ul className='priceList'>
+                <h3>Front End Development</h3>
                     <li>
-                        Setup: $160
+                        Front-end architecture and design services to build top-class
+                        solutions to meet your business needs.</li>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <h3>Back End Development</h3>
+                    <li>
+                        My back-end development services is about building a product
+                        that works seamlessly, meets market needs and creating an enjoyable user experience that
+                        earns your clients loyalty.
+                    </li>
+                    <li>Any database of your choosing.</li> 
+                    <h3>E-commerce</h3>
+                    <li>
+                        Custom designed & developed eCommerce websites.                   
                     </li>
                     <li>
-                        Design and building: $5,000
+                        Cutomer Log-in Area.
                     </li>
                     <li>
-                        Content creation: $500                        
+                        Product Catalog Design.
                     </li>
                     <li>
-                        Client training: $600
+                        Product Detail Page Design
                     </li>
                     <li>
-                        Maintenance: $500
+                       Full Shopping Cart Integration.
                     </li>
                     <li>
-                        Total: $6,760
+                        Easy Product Search.
+                    </li>
+                    <li>
+                        Product Rating & Reviews.
                     </li>
                 </ul>                
             </p>           
-            <div>       
-            <p className="pri">Standad E-commerce web design:</p>
-            <ul className="priceList">
-                <li>
-                    Simple Bare Basic E-commerce site: $3,000 - $5,000
-                </li>
-                <li>
-                    Medium Size (medium is defined as at least a thousand visitors per month): $8,000 - $12,000
-                </li>
-                <li>
-                    Enterprise ( extremely high traffic/monthly): $16,000 - $25,000
-                </li>
-            </ul>  
-            <p className="pri"> Fill out form for a free Quote</p>                       
+            <div>            
+            <p className="pri"> Fill out form for a free Quote</p>
+            <ContactMe />                       
             </div>              
             </div>  
             </div>   
