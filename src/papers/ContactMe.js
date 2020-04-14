@@ -16,9 +16,7 @@ class ContactMe extends Component {
   }
 
   handleSubmit = e => {
-
     e.preventDefault();
-
     if (!this.state.canSubmit) {
       return false;
     }
