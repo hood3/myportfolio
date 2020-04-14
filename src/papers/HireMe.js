@@ -54,8 +54,7 @@ const HireMe = () => {
                 </ul>                
             </p>           
             <div>            
-            <p className="pri"> Fill out form for a free Quote</p>
-            <ContactMe />                       
+            <p className="pri"> Fill out form for a free Quote</p>                       
             </div>              
             </div>  
             </div>   
