@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
-import Customer from '../papers/Customer';
+//import Customer from '../papers/Customer';
 //import ContactMe from '../papers/ContactMe';
 
 
@@ -56,7 +56,7 @@ const HireMe = () => {
             </p>           
             <div>            
             <p className="pri"> Fill out form for a free Quote</p> 
-            <Customer />                      
+                          
             </div>              
             </div>  
             </div>   
