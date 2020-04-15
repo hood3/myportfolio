@@ -28,26 +28,26 @@ const Customer = () => {
     };
         
    const contactForm = () => (
-    <form>  
+    <form className="contact" netlify>  
         <div className="form-group">
             <label className="text-black-150 font-weight-bold">Name</label>
-            <input onChange={handleChange('name')} value={name} type="email" className="form-control" Required/>
+            <input onChange={handleChange('name')} value={name} type="text" className="form-control" Required/>
         </div>   
         <div className="form-group">
             <label className="text-black-150 font-weight-bold">Email</label>
-            <input onChange={handleChange('email')} value={email} type="email" className="form-control" required/>
+            <input onChange={handleChange('email')} value={email} type="email" className="form-control" Required/>
         </div>
         <div className="form-group">
             <label className="text-black-150 font-weight-bold">Phone</label>
-            <input onChange={handleChange('phone')} value={phone} type="password" className="form-control" required/>
+            <input onChange={handleChange('phone')} value={phone} type="text" className="form-control" Required/>
         </div>
         <div className="form-group">
             <label className="text-black-150 font-weight-bold">Web Type</label>
-            <input onChange={handleChange('webType')} value={webType} type="email" className="form-control" required/>
+            <input onChange={handleChange('webType')} value={webType} type="text" className="form-control" Required/>
         </div>   
         <div className="form-group">
             <label className="text-black-150 font-weight-bold">Web Information</label>
-            <textareea onChange={handleChange('webInfo')} value={webInfo} type="email" className="form-control" required/>
+            <textareea onChange={handleChange('webInfo')} value={webInfo} type="textarea" className="form-control" required/>
         </div>   
         <div>
             <button className="btn btn-primary" onClick={clickSubmit}>
