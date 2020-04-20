@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../myStyle.scss';
 import linkin from '../assets/linkin.png';
 import git from '../assets/git.jpg';
 import mytop from '../assets/mytop.png';

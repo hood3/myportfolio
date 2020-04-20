@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../myStyle.scss';
 import { Link } from 'react-router-dom';
 //import Customer from '../papers/Customer';
 //import ContactMe from '../papers/ContactMe';

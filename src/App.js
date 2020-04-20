@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './myStyle.scss';
 import favicon from './assets/favicon.png';
 import { Link } from 'react-router-dom';
 import About from './components/About';

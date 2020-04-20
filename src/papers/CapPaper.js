@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../myStyle.scss';
 import Quiz01 from '../assets/Quiz01.jpg';
 import Quiz02 from '../assets/Quiz02.jpg';
 import Quiz03 from '../assets/Quiz03.jpg';

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../App.css";
+import "../myStyle.scss";
 import qs from 'qs';
 
 const Customer = () => {

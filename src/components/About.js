@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import portpic from '../assets/portpic.png';
-import '../App.css';
+import '../myStyle.scss';
 import skill from '../assets/skill.png';
 import { Link } from 'react-router-dom';
 

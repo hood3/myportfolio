@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import  '../App.css';
+import  '../myStyle.scss';
 import qs from 'qs';
 
 class ContactMe extends Component {

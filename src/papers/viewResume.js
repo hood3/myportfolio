@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../myStyle.scss';
 import Resume from '../assets/Resume.png';
 import { Link } from 'react-router-dom';
 

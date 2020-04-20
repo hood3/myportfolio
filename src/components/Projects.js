@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../myStyle.scss';
 import { Row, Col } from 'react-bootstrap';
 import projectlogo from '../assets/projectlogo.png';
 import me from '../assets/me.png';
