@@ -1,14 +1,14 @@
 import React from 'react';
 import '../myStyle.scss';
-import Quiz01 from '../assets/Quiz01.jpg';
-import Quiz02 from '../assets/Quiz02.jpg';
-import Quiz03 from '../assets/Quiz03.jpg';
-import Quiz04 from '../assets/Quiz04.jpg';
-import Quiz05 from '../assets/Quiz05.jpg';
-import Quiz06 from '../assets/Quiz06.jpg';
-import Quiz07 from '../assets/Quiz07.jpg';
-import Quiz08 from '../assets/Quiz08.jpg';
-import Quiz09 from '../assets/Quiz09.jpg';
+import Quiz1 from '../assets/Quiz1.jpg';
+import Quiz2 from '../assets/Quiz2.jpg';
+import Quiz3 from '../assets/Quiz3.jpg';
+import Quiz4 from '../assets/Quiz4.jpg';
+import Quiz5 from '../assets/Quiz5.jpg';
+import Quiz6 from '../assets/Quiz6.jpg';
+import Quiz7 from '../assets/Quiz7.jpg';
+import Quiz8 from '../assets/Quiz8.jpg';
+import Quiz9 from '../assets/Quiz9.jpg';
 import Quiz10 from '../assets/Quiz10.jpg';
 import Quiz11 from '../assets/Quiz11.jpg';
 import Quiz12 from '../assets/Quiz12.jpg';
@@ -27,18 +27,18 @@ const CapPaper = () => {
             <div className="backbtn">
             <Link class="cta-btn cta-btn--hero" to='/'>Portfolio</Link>   
             </div>
-            <img  className="page1" src={Quiz01} alt="paper1" />
-            <img  className="page2" src={Quiz02} alt="paper2" />
-            <img  className="page3" src={Quiz03} alt="paper3" />
-            <img  className="page4" src={Quiz04} alt="paper4" />
-            <img  className="page5" src={Quiz05} alt="paper5" />
-            <img  className="page6" src={Quiz06} alt="paper6" />
-            <img  className="page7" src={Quiz07} alt="paper7" />
-            <img  className="page8" src={Quiz08} alt="paper8" />
-            <img  className="page9" src={Quiz09} alt="paper9" />
+            <img  className="page1" src={Quiz1} alt="paper1" />
+            <img  className="page2" src={Quiz2} alt="paper2" />
+            <img  className="page3" src={Quiz3} alt="paper3" />
+            <img  className="page4" src={Quiz4} alt="paper4" />
+            <img  className="page5" src={Quiz5} alt="paper5" />
+            <img  className="page6" src={Quiz6} alt="paper6" />
+            <img  className="page7" src={Quiz7} alt="paper7" />
+            <img  className="page8" src={Quiz8} alt="paper8" />
+            <img  className="page9" src={Quiz9} alt="paper9" />
             <img  className="page10" src={Quiz10} alt="paper10" />
             <img  className="page11" src={Quiz11} alt="paper11" />
-            <img  className="page11" src={Quiz12} alt="paper11" />
+            <img  className="page12" src={Quiz12} alt="paper12" />
             <img  className="page11" src={Quiz13} alt="paper11" />
             <img  className="page11" src={Quiz14} alt="paper11" />
             <img  className="page11" src={Quiz15} alt="paper11" />

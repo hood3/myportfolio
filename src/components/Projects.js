@@ -139,7 +139,7 @@ const Projects = () => {
                     in Technical Writing class, using React for the front-end, and Node.js, Express.js, 
                     and MongoDb for the back-end. The front end is hosted on Netlify, and the back-end is hosted on Heroku. 
                     <br/><br/>                  
-                    <a class="cta-btn cta-btn--hero" href='https://github.com/hood3/portfolio'> 
+                    <a class="cta-btn cta-btn--hero" href='https://github.com/hood3/myportfolio'> 
                     Source Code
                     </a>
                 </p>                 
