@@ -19,6 +19,14 @@ import Quiz16 from '../assets/Quiz16.jpg';
 import Quiz17 from '../assets/Quiz17.jpg';
 import Quiz18 from '../assets/Quiz18.jpg';
 import Quiz19 from '../assets/Quiz19.jpg';
+import Quiz20 from '../assets/Quiz20.jpg';
+import Quiz21 from '../assets/Quiz21.jpg';
+import Quiz22 from '../assets/Quiz22.jpg';
+import Quiz23 from '../assets/Quiz23.jpg';
+import Quiz24 from '../assets/Quiz24.jpg';
+import Quiz25 from '../assets/Quiz25.jpg';
+import Quiz26 from '../assets/Quiz26.jpg';
+import Quiz27 from '../assets/Quiz27.jpg';
 import { Link } from 'react-router-dom';
 
 const CapPaper = () => {
@@ -46,6 +54,14 @@ const CapPaper = () => {
             <img  className="page11" src={Quiz17} alt="paper11" />
             <img  className="page11" src={Quiz18} alt="paper11" />
             <img  className="page11" src={Quiz19} alt="paper11" />
+            <img  className="page11" src={Quiz20} alt="paper11" />
+            <img  className="page11" src={Quiz21} alt="paper11" />
+            <img  className="page11" src={Quiz22} alt="paper11" />
+            <img  className="page11" src={Quiz23} alt="paper11" />
+            <img  className="page11" src={Quiz24} alt="paper11" />
+            <img  className="page11" src={Quiz25} alt="paper11" />
+            <img  className="page11" src={Quiz26} alt="paper11" />
+            <img  className="page11" src={Quiz27} alt="paper11" />
         </div>      
     );
   };
