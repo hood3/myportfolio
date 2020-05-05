@@ -25,7 +25,7 @@ const Projects = () => {
                         It is a useful app for people having trouble with the English language. 
                         This application's front-end and back-end are hosted on Heroku. 
                         <br/><br/>                
-                        <a className="cta-btn cta-btn--hero" href='https://159.65.186.209'>See Live</a> 
+                        <a className="cta-btn cta-btn--hero" href='english-app.com'>See Live</a> 
                         <a className="cta-btn cta-btn--hero margin-right" 
                         href='https://github.com/hood3/capstone_app'>Source Code</a> 
                         <br/><br/>                        
