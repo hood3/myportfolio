@@ -23,7 +23,7 @@ const Projects = () => {
                         English Quiz App I made for my Capstone Project in Professional Development in
                         Computer Science class. It was designed and developed using the MERN stack theme.
                         It is a useful app for people having trouble with the English language. 
-                        This application's front-end and back-end are hosted on Heroku. 
+                        This application's front-end and back-end are hosted on Digital Ocean. 
                         <br/><br/>                
                         <a className="cta-btn cta-btn--hero" href='http://english-app.com'>See Live</a> 
                         <a className="cta-btn cta-btn--hero margin-right" 
@@ -60,7 +60,7 @@ const Projects = () => {
                 <h2>Taryn's Doghouse App</h2>
                     Website I made for a family member who is considering going into the dog day care business. 
                     I developed this web site using MEAN stack development. This application's front-end and back-end 
-                    are hosted on Heroku. I also used this as a project for my Web Application class
+                    are hosted on Digital Ocean. I also used this as a project for my Web Application class
                     at Northeastern University, so there is documentation available to look at.  
                     <br/><br/>           
                     <a class="cta-btn cta-btn--hero" href='https://tarynsdoghouse.com'>See Live</a>                                 
@@ -137,7 +137,7 @@ const Projects = () => {
                 <h2>Byron Hood Digital Portfolio</h2>
                     My digital portfolio which you are viewing now. I developed this for a school project 
                     in Technical Writing class, using React for the front-end, and Node.js, Express.js, 
-                    and MongoDb for the back-end. The front end is hosted on Netlify, and the back-end is hosted on Heroku. 
+                    and MongoDb for the back-end. The front end is hosted on Netlify, and the back-end is hosted on Digital Ocean. 
                     <br/><br/>                  
                     <a class="cta-btn cta-btn--hero" href='https://github.com/hood3/myportfolio'> 
                     Source Code

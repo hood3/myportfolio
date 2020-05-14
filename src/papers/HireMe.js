@@ -1,11 +1,47 @@
-import React from 'react';
 import '../myStyle.scss';
 import { Link } from 'react-router-dom';
-//import Customer from '../papers/Customer';
-//import ContactMe from '../papers/ContactMe';
+import React, { useState } from 'react';
+import axios from 'axios';
 
+const HireMe = () => {  
+    const [values,setValues] = useState ({//State object values with method setValues
+        name:'',
+        email:'',
+        WebsiteType:'',
+        buttonText:'Send'//Button text will change during events
+      });
 
-const HireMe = () => {   
+      const {name,email,WebsiteType,buttonText} = values; // Destructured to save typing
+
+      const handleChange = name => event => {   //Function to grab input values on change
+        setValues({ ...values, [name]: event.target.value });//and set the state with values
+    };
+
+    const clickSubmit = event => { //Events from button being clicked
+        event.preventDefault(); //Keep page from reloading
+        setValues({ ...values, buttonText: 'Sending' }); // Change button value while submitting
+    };
+    const quoteForm = () => (//Method containing the Registration form
+        <form>
+            <div className="form-group">
+                <label className="text-black-150 font-weight-bold">Name</label>
+                <input onChange={handleChange('name')} value={name} type="text" className="form-control" />
+            </div>
+            <div className="form-group">
+                <label className="text-black-150 font-weight-bold">Email</label>
+                <input onChange={handleChange('email')} value={email} type="email" className="form-control" />
+            </div>
+            <div className="form-group">
+                <label className="text-black-150 font-weight-bold">Website Type</label>
+                <input onChange={handleChange('WebsiteType')} value={WebsiteType} type="text" className="form-control" />
+            </div>
+            <div>
+                <button className="btn btn-primary" onClick={clickSubmit}>
+                    {buttonText}
+                </button>
+            </div>
+        </form>
+      );
 
     return( 
         <div>
@@ -14,7 +50,8 @@ const HireMe = () => {
         </div>     
         <div className="prices">         
             <h1>Website Design and Development</h1><br/><h2>Whether you are a start-up or an enterprise business,
-                my expertise in web development will turn your ideas into an online success.</h2><br/>           
+                my expertise in web development will turn your ideas into an online success.</h2><br/>  
+                         
             <p>
                 <ul className='priceList'>
                 <h3>Front End Development</h3>
@@ -56,7 +93,7 @@ const HireMe = () => {
             </p>           
             <div>            
             <p className="pri"> Fill out form for a free Quote</p> 
-                          
+            {quoteForm()}                          
             </div>              
             </div>  
             </div>   
