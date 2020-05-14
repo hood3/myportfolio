@@ -136,8 +136,8 @@ const Projects = () => {
                 <p className="about-wrapper__info-text">
                 <h2>Byron Hood Digital Portfolio</h2>
                     My digital portfolio which you are viewing now. I developed this for a school project 
-                    in Technical Writing class, using React for the front-end, and Node.js, Express.js, 
-                    and MongoDb for the back-end. The front end is hosted on Netlify, and the back-end is hosted on Digital Ocean. 
+                    in Technical Writing class, using React for the front-end. This application is hosted
+                    on Netlify. 
                     <br/><br/>                  
                     <a class="cta-btn cta-btn--hero" href='https://github.com/hood3/myportfolio'> 
                     Source Code
