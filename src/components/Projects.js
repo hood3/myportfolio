@@ -4,7 +4,6 @@ import { Row, Col } from 'react-bootstrap';
 import projectlogo from '../assets/projectlogo.png';
 import me from '../assets/me.png';
 import facial from '../assets/facial.png';
-import dogheader from '../assets/dogheader.gif';
 import { Link } from 'react-router-dom';
 import Tilt from 'react-tilt';
 
