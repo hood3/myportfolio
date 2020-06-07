@@ -53,44 +53,7 @@ const Projects = () => {
                               </Col>
                               </Row>
                               <br/><br/><br/><br/>  
-                              <Row>            
-            <Col lg={6} sm={12} > 
-            <div className="about-wrapper__info_project">
-                <p className="about-wrapper__info-text">
-                <h2>Taryn's Doghouse App</h2>
-                    Website I made for a family member who is considering going into the dog day care business. 
-                    I developed this web site using MEAN stack development. This application's front-end and back-end 
-                    are hosted on Digital Ocean. I also used this as a project for my Web Application class
-                    at Northeastern University, so there is documentation available to look at.  
-                    <br/><br/>           
-                    <a class="cta-btn cta-btn--hero" href='https://tarynsdoghouse.com'>See Live</a>                                 
-                    <a class="cta-btn cta-btn--hero margin-right" 
-                    href='https://github.com/hood3?tab=repositories'>Source Code</a> 
-                    <br/><br/>             
-                    <Link class="cta-btn cta-btn--hero" to='/TarynPaper'>Documentation</Link>      
-                </p>
-            </div>  
-            </Col>  
-            <Col lg={6} sm={12}>
-            <Tilt           options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                            <div data-tilt className="thumbnail rounded">
-                              <img src={dogheader} alt="myproject" class="img-fluid rounded shadow-lg"
-                              height="650" width="650"/>    
-                            </div>
-                            </Tilt>
-            </Col>
-        </Row><br/><br/><br/><br/>
+                            
         <Row >            
             <Col lg={6} sm={12} > 
             <div className="about-wrapper__info_project">
