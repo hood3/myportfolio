@@ -1,6 +1,6 @@
 import React from 'react';
 import '../myStyle.scss';
-import Resume from '../assets/Resume.png';
+import resume from '../assets/resume.jpg';
 import { Link } from 'react-router-dom';
 
 
@@ -10,7 +10,7 @@ const TarynPaper = () => {
             <div className="backbtn">
             <Link class="cta-btn cta-btn--hero" to='/'>Portfolio</Link>        
             </div>
-            <img  className="resume" src={Resume} alt="this is my resume" />
+            <img  className="resume" src={resume} alt="this is my resume" />
         </div>      
     );
   };
