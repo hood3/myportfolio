@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../myStyle.scss';
-import Resume from '../assets/Resume.jpg';
+//import Resume from '../assets/Resume.jpg';
 import { Link } from 'react-router-dom';
 import Scroll from'../components/Scroll';
 
