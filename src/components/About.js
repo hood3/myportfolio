@@ -24,7 +24,7 @@ const About = () => {
                         self-employed, I built a Clientele, formed a team, handled all concerns, and worked on site, 
                         to the oil and gas industry where I became lead MWD Engineer within two years.
                         Having found a keen interest in computers, I enrolled at Oklahoma Northeastern State University
-                        to gain more computer knowledge, and will receive a Bachelor’s Degree in Computer Science in May 2020.
+                        to gain more computer knowledge, and will receive a Master's Degree in Computer Science in May 2023.
                         To my delighted surprise, and also many hours of study, I made the Dean’s and President’s honor rolls.
                         Because of my obsessive attention to detail, my unequivocal desire to create, and my mission-driven
                         work ethic to learn new technology each day, I enjoy web developing. I make fast load times and 
