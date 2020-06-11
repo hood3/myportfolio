@@ -58,7 +58,7 @@ const Projects = () => {
             <div className="about-wrapper__info_project">
                 <p className="about-wrapper__info-text">
                 <h2>Facial Recognition App</h2>
-                    This is an Facial recognition app I developed for a school project using HTML5, CSS3, JavaScript
+                    This is a Facial recognition app I developed for a school project using HTML5, CSS3, JavaScript
                     and REACT.js for the front-end. I used Node.js, Express.js for the server-side of the back-end. 
                     PostgreSQL was used for the back-end database. This app uses image recognition software from
                     Claraifi API. This application's front-end and back-end are hosted on Heroku.                        
