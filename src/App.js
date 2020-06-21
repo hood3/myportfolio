@@ -9,13 +9,13 @@ import Endportfolio from './components/Endportfolio';
 function App() {
   return (
     <div id="myportfolio">
-      <div className="App">   
+      <div className="App">       
       <header className="App-header">  
       <h1 className="hood">
         <subtitle><img  className="pic" src={favicon} alt="this is my icon" />Byron Hood <br/>
         Full-Stack Web Developer</subtitle>               
       </h1>         
-      </header>  
+      </header>       
       <div>
         <About />
       </div>  
@@ -28,8 +28,9 @@ function App() {
       <div>
         <Endportfolio />
       </div> 
-      </div>     
+      </div>      
     </div>
+    
   );
 }
 

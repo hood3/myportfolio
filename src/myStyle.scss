@@ -1,3 +1,5 @@
+@import 'breakpoint-sass';
+
 .App {
     text-align: center;
   }
@@ -86,13 +88,14 @@
     background-image:url(./assets/myBack.jpg);  
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    width:100%;
+    height:auto;
     display: flex;
     flex-direction: column;
     align-items: left;   
     justify-content: center;  
-    color: #753a88;    
-  }
+    color: #753a88;  
+    }
   
   ul{
     list-style: none;
@@ -107,7 +110,10 @@
   .pic{
     width:75px;
     height:100px;
-  }
+    @include breakpoint(100px 1125px){
+      width:35px;
+      height:50px;
+  }}
   
   .hood{ 
     text-align: left;
@@ -115,6 +121,13 @@
     font-weight: 700;
     margin-bottom: 15rem;  
     padding-left:100px;
+    @include breakpoint(100px 1125px){
+      text-align: left;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 5rem;  
+    padding-left:10px;}
+
     } 
   
     .aboutMe{
