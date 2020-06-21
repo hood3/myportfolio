@@ -16,7 +16,7 @@
     @include breakpoint(100px 600px){
       font-size: .3rem;
       line-height: .35;  }  
-      @include breakpoint(601px 1500px){
+      @include breakpoint(601px 2500px){
         font-size: .8rem;
         line-height: .55;  }  
   }
@@ -246,7 +246,7 @@
     @include breakpoint(100px 600px){
      flex:50%;
      padding:8px;
-   }@include breakpoint(600px 1500px){
+   }@include breakpoint(600px 2500px){
     flex:50%;
     padding:4px;
   }}  
@@ -260,7 +260,7 @@
       @include breakpoint(100px 600px){
         width:400px;
         height:650px;}
-        @include breakpoint(600px 1500px){
+        @include breakpoint(600px 2500px){
           width:600px;
           height:850px;}
     }
@@ -269,7 +269,7 @@
       @include breakpoint(100px 600px){
         width:400px;
         height:650px;}
-        @include breakpoint(600px 1500px){
+        @include breakpoint(600px 2500px){
           width:600px;
           height:850px;}
     }
