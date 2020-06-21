@@ -38,33 +38,33 @@ class CapPaper extends Component {
             <Link class="cta-btn cta-btn--hero" to='/'>Portfolio</Link>   
             </div>
             <Scroll>
-            <img  className="page1" src={Quiz1} alt="paper1" height="2000px" width="1400px" />
-            <img  className="page2" src={Quiz2} alt="paper2" height="2000px" width="1400px" />
-            <img  className="page3" src={Quiz3} alt="paper3" height="2000px" width="1400px" />
-            <img  className="page4" src={Quiz4} alt="paper4" height="2000px" width="1400px" />
-            <img  className="page5" src={Quiz5} alt="paper5" height="2000px" width="1400px" />
-            <img  className="page6" src={Quiz6} alt="paper6" height="2000px" width="1400px" />
-            <img  className="page7" src={Quiz7} alt="paper7" height="2000px" width="1400px" />
-            <img  className="page8" src={Quiz8} alt="paper8" height="2000px" width="1400px" />
-            <img  className="page9" src={Quiz9} alt="paper9" height="2000px" width="1400px" />
-            <img  className="page10" src={Quiz10} alt="paper10" height="2000px" width="1400px" />
-            <img  className="page11" src={Quiz11} alt="paper11" height="2000px" width="1400px" />
-            <img  className="page12" src={Quiz12} alt="paper12" height="2000px" width="1400px" />
-            <img  className="page13" src={Quiz13} alt="paper13" height="2000px" width="1400px" />
-            <img  className="page14" src={Quiz14} alt="paper14" height="2000px" width="1400px" />
-            <img  className="page15" src={Quiz15} alt="paper15" height="2000px" width="1400px" />
-            <img  className="page16" src={Quiz16} alt="paper16" height="2000px" width="1400px" />
-            <img  className="page17" src={Quiz17} alt="paper17" height="2000px" width="1400px" />
-            <img  className="page18" src={Quiz18} alt="paper18" height="2000px" width="1400px" />
-            <img  className="page19" src={Quiz19} alt="paper19" height="2000px" width="1400px" />
-            <img  className="page20" src={Quiz20} alt="paper20" height="2000px" width="1400px" />
-            <img  className="page21" src={Quiz21} alt="paper21" height="2000px" width="1400px" />
-            <img  className="page22" src={Quiz22} alt="paper22" height="2000px" width="1400px" />
-            <img  className="page23" src={Quiz23} alt="paper23" height="2000px" width="1400px" />
-            <img  className="page24" src={Quiz24} alt="paper24" height="2000px" width="1400px" />
-            <img  className="page25" src={Quiz25} alt="paper25" height="2000px" width="1400px" />
-            <img  className="page26" src={Quiz26} alt="paper26" height="2000px" width="1400px" />
-            <img  className="page27" src={Quiz27} alt="paper27" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz1} alt="paper1" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz2} alt="paper2" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz3} alt="paper3" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz4} alt="paper4" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz5} alt="paper5" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz6} alt="paper6" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz7} alt="paper7" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz8} alt="paper8" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz9} alt="paper9" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz10} alt="paper10" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz11} alt="paper11" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz12} alt="paper12" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz13} alt="paper13" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz14} alt="paper14" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz15} alt="paper15" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz16} alt="paper16" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz17} alt="paper17" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz18} alt="paper18" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz19} alt="paper19" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz20} alt="paper20" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz21} alt="paper21" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz22} alt="paper22" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz23} alt="paper23" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz24} alt="paper24" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz25} alt="paper25" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz26} alt="paper26" height="2000px" width="1400px" />
+            <img  className="page" src={Quiz27} alt="paper27" height="2000px" width="1400px" />
             </Scroll>
         </div>      
     );

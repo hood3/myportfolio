@@ -232,6 +232,18 @@
      font-size: .7rem;
     }}
 
+    .resume{      
+      @include breakpoint(100px 600px){
+        width:500px;
+        height:750px;}
+    }
+
+    .page{
+      @include breakpoint(100px 600px){
+        width:500px;
+        height:750px;}
+    }
+
 
 
    
