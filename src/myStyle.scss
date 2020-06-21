@@ -234,14 +234,14 @@
 
     .resume{      
       @include breakpoint(100px 600px){
-        width:500px;
-        height:750px;}
+        width:400px;
+        height:650px;}
     }
 
     .page{
       @include breakpoint(100px 600px){
-        width:500px;
-        height:750px;}
+        width:400px;
+        height:650px;}
     }
 
 
