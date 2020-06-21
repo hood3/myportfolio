@@ -16,6 +16,9 @@
     @include breakpoint(100px 600px){
       font-size: .3rem;
       line-height: .35;  }  
+      @include breakpoint(601px 1500px){
+        font-size: .3rem;
+        line-height: .35;  }  
   }
   
   .cta-btn::after {
@@ -94,7 +97,10 @@
     color: #753a88;  
     @include breakpoint(100px 600px){
       min-height:40vh;
-    }}    
+    }
+    @include breakpoint(600px 1500px){
+      min-height:55vh;
+  }   } 
   
   .pic{
     width:75px;
@@ -102,7 +108,10 @@
     @include breakpoint(100px 600px){
       width:35px;
       height:50px;
-  }}
+  }
+  @include breakpoint(600px 1500px){
+    width:45px;
+    height:75px;}}
   
   .hood{ 
     text-align: left;
@@ -116,7 +125,12 @@
     font-weight: 700;
     margin-bottom: 5rem;  
     padding-left:10px;}
-
+    @include breakpoint(600px 1500px){
+      text-align: left;
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 5rem;  
+      padding-left:10px;}
     } 
   
     .aboutMe{
@@ -124,7 +138,9 @@
       color:white;
       @include breakpoint(100px 600px){
         font-size: 2.1rem;
-    }}
+    }
+    @include breakpoint(600px 1500px){
+      font-size: 3.1rem;}}
 
     .about-wrapper__image{
       display: flex;
@@ -161,7 +177,9 @@
       text-align: left;
       color:white;     
       @include breakpoint(100px 600px){
-        font-size: .3rem;}    
+        font-size: .3rem;}   
+        @include breakpoint(100px 600px){
+          font-size: .6rem;} 
     }
 
     #about {
@@ -225,7 +243,10 @@
     @include breakpoint(100px 600px){
      flex:50%;
      padding:8px;
-   }}
+   }
+   @include breakpoint(600px 1500px){
+    flex:75%;
+    padding:8px;}}
 
    h2{
     @include breakpoint(100px 600px){
