@@ -13,7 +13,7 @@ const Endportfolio = () => {
                         <a href="#myportfolio"><img src={mytop} alt="mytop" height="60" width="60"/></a>
                     </p>
                     <p>
-                        <a href="https://www.linkedin.com/in/byron-hood"><img src={linkin} alt="mylinkin" 
+                        <a href="https://www.linkedin.com/in/byron-hood" className="logo2"><img src={linkin} alt="mylinkin" 
                         height="60" width="60"/></a>
                         <a href="https://github.com/hood3?tab=repositories" className="logo"><img src={git}
                          alt="mygithub" height="60" width="60"/></a>  

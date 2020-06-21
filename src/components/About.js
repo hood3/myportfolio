@@ -11,12 +11,12 @@ const About = () => {
         <div className="container"><br/><br/> 
         <h2 className="aboutMe"> About Me </h2><br/><br/>
         <Row >            
-            <Col  md={6} sm={12}> 
+            <Col className="colum" md={6} sm={12}> 
             <div className="about-wrapper__image">
                 <img src={portpic} alt="myport" class="img-fluid rounded shadow-lg"/> 
             </div>                  
             </Col>
-            <Col  md={6} sm={12}>
+            <Col className="colum" md={6} sm={12}>
                 <div className="about-wrapper__info">
                     <p className="about-wrapper__info-text">
                         I have always sought opportunities that are challenging and meaningful. 
@@ -41,13 +41,15 @@ const About = () => {
         </Row>
         <Row>
             <Col sm={12}>
-            <p class="about-wrapper__info-text"><br/>My Skills:<br/>                   
+            <p class="about-wrapper__info-text"><br/>My Skills:<br/>  
+            <div className="skillset">                 
                     <img
                     className="img-fluid rounded shadow-lg"
                     height="500px"
                     width="500px"
                     src={skill}
-                    alt="computerlogo"/><br/>                   
+                    alt="computerlogo"/><br/>    
+                    </div>               
             </p>  
             </Col>
         </Row>  

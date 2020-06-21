@@ -15,7 +15,7 @@ const Projects = () => {
             <h2 className="aboutMe">Projects</h2>
             <br/><br/><br/>
             <Row >  
-                <Col lg={6} sm={12} > 
+                <Col className="colum" lg={6} sm={12} > 
                 <div className="about-wrapper__info_project">
                     <p className="about-wrapper__info-text">
                         <h2>English Quiz App</h2>
@@ -32,7 +32,7 @@ const Projects = () => {
                     </p>
                 </div>  
                 </Col>
-                    <Col lg={6} sm={12}>
+                    <Col className="colum" lg={6} sm={12}>
                         <Tilt options={{
                             reverse: false,
                             max: 8,
@@ -54,7 +54,7 @@ const Projects = () => {
                               <br/><br/><br/><br/>  
                             
         <Row >            
-            <Col lg={6} sm={12} > 
+            <Col className="colum" lg={6} sm={12} > 
             <div className="about-wrapper__info_project">
                 <p className="about-wrapper__info-text">
                 <h2>Facial Recognition App</h2>
@@ -72,7 +72,7 @@ const Projects = () => {
                 </p>                 
             </div>  
             </Col>  
-            <Col lg={6} sm={12}>
+            <Col className="colum" lg={6} sm={12}>
             <Tilt           options={{
                             reverse: false,
                             max: 8,
@@ -92,7 +92,7 @@ const Projects = () => {
             </Col>
         </Row><br/><br/><br/><br/>
         <Row >            
-            <Col lg={6} sm={12} > 
+            <Col className="colum" lg={6} sm={12} > 
             <div className="about-wrapper__info_project">
                 <p className="about-wrapper__info-text">
                 <h2>Byron Hood Digital Portfolio</h2>
@@ -106,7 +106,7 @@ const Projects = () => {
                 </p>                 
             </div>  
             </Col>  
-            <Col lg={6} sm={12}>
+            <Col className="colum" lg={6} sm={12}>
             <Tilt           options={{
                             reverse: false,
                             max: 8,
