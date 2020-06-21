@@ -97,7 +97,7 @@ const Projects = () => {
                 <p className="about-wrapper__info-text">
                 <h2>Byron Hood Digital Portfolio</h2>
                     This is my digital portfolio which you are viewing now. I developed this for a school project 
-                    in Technical Writing class, using React.js. This application is hosted
+                    in Technical Writing class, using React.js. This application is fully responsive and hosted
                     on Netlify. 
                     <br/><br/>                  
                     <a class="cta-btn cta-btn--hero" href='https://github.com/hood3/myportfolio'> 
