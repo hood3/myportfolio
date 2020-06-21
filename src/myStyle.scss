@@ -177,7 +177,7 @@
       text-align: left;
       color:white;     
       @include breakpoint(100px 600px){
-        font-size: .3rem;}   
+        font-size: .2rem;}   
         @include breakpoint(600px 2500px){
           font-size: .5rem;} 
     }
@@ -248,7 +248,7 @@
      padding:8px;
    }@include breakpoint(600px 2500px){
     flex:50%;
-    padding:4px;
+    padding:8px;
   }}  
 
    h2{
