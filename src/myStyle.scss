@@ -178,7 +178,7 @@
       color:white;     
       @include breakpoint(100px 600px){
         font-size: .3rem;}   
-        @include breakpoint(100px 1500px){
+        @include breakpoint(600px 1500px){
           font-size: .5rem;} 
     }
 
