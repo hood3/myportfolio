@@ -16,8 +16,8 @@
     @include breakpoint(100px 600px){
       font-size: .3rem;
       line-height: .35;  }  
-      @include breakpoint(601px 2500px){
-        font-size: .8rem;
+      @include breakpoint(600px 2500px){
+        font-size: 1.0rem;
         line-height: .55;  }  
   }
   
@@ -98,7 +98,7 @@
     @include breakpoint(100px 600px){
       min-height:40vh;
     }
-    @include breakpoint(600px 1500px){
+    @include breakpoint(600px 2500px){
       min-height:60vh;
   }   } 
   
@@ -109,7 +109,7 @@
       width:35px;
       height:50px;
   }
-  @include breakpoint(600px 1500px){
+  @include breakpoint(600px 2500px){
     width:45px;
     height:75px;}}
   
@@ -125,7 +125,7 @@
     font-weight: 700;
     margin-bottom: 5rem;  
     padding-left:10px;}
-    @include breakpoint(600px 1500px){
+    @include breakpoint(600px 2500px){
       text-align: left;
       font-size: 2.6rem;
       font-weight: 700;
@@ -139,7 +139,7 @@
       @include breakpoint(100px 600px){
         font-size: 2.1rem;
     }
-    @include breakpoint(600px 1500px){
+    @include breakpoint(600px 2500px){
       font-size: 3.1rem;}}
 
     .about-wrapper__image{
@@ -178,7 +178,7 @@
       color:white;     
       @include breakpoint(100px 600px){
         font-size: .3rem;}   
-        @include breakpoint(600px 1500px){
+        @include breakpoint(600px 2500px){
           font-size: .5rem;} 
     }
 
@@ -238,7 +238,7 @@
       height:auto;
       width:30%;
    }
-   @include breakpoint(600px 1500px){
+   @include breakpoint(600px 2500px){
     height:auto;
     width:45%;}}
 
