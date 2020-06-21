@@ -17,8 +17,8 @@
       font-size: .3rem;
       line-height: .35;  }  
       @include breakpoint(601px 1500px){
-        font-size: .3rem;
-        line-height: .35;  }  
+        font-size: .8rem;
+        line-height: .55;  }  
   }
   
   .cta-btn::after {
@@ -178,7 +178,7 @@
       color:white;     
       @include breakpoint(100px 600px){
         font-size: .3rem;}   
-        @include breakpoint(100px 600px){
+        @include breakpoint(100px 1500px){
           font-size: .6rem;} 
     }
 
@@ -237,16 +237,19 @@
     @include breakpoint(100px 600px){
       height:auto;
       width:30%;
-   }}
+   }
+   @include breakpoint(600px 1500px){
+    height:auto;
+    width:45%;}}
 
    .colum{
     @include breakpoint(100px 600px){
      flex:50%;
      padding:8px;
-   }
-   @include breakpoint(600px 1500px){
-    flex:75%;
-    padding:8px;}}
+   }@include breakpoint(600px 1500px){
+    flex:50%;
+    padding:4px;
+  }}  
 
    h2{
     @include breakpoint(100px 600px){
@@ -257,12 +260,18 @@
       @include breakpoint(100px 600px){
         width:400px;
         height:650px;}
+        @include breakpoint(600px 1500px){
+          width:600px;
+          height:850px;}
     }
 
     .page{
       @include breakpoint(100px 600px){
         width:400px;
         height:650px;}
+        @include breakpoint(600px 1500px){
+          width:600px;
+          height:850px;}
     }
 
 
