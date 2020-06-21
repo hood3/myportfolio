@@ -13,7 +13,7 @@
     line-height: .75;
     z-index: 1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
       font-size: .3rem;
       line-height: .35;  }  
   }
@@ -92,14 +92,14 @@
     align-items: left;   
     justify-content: center;  
     color: #753a88;  
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
       min-height:40vh;
     }}    
   
   .pic{
     width:75px;
     height:100px;
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
       width:35px;
       height:50px;
   }}
@@ -110,7 +110,7 @@
     font-weight: 700;
     margin-bottom: 15rem;  
     padding-left:100px;
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
     text-align: left;
     font-size: 1.6rem;
     font-weight: 700;
@@ -122,7 +122,7 @@
     .aboutMe{
       font-size: 4.6rem;
       color:white;
-      @include breakpoint(100px 1125px){
+      @include breakpoint(100px 600px){
         font-size: 2.1rem;
     }}
 
@@ -160,7 +160,7 @@
     .about-wrapper__info-text{
       text-align: left;
       color:white;     
-      @include breakpoint(100px 1125px){
+      @include breakpoint(100px 600px){
         font-size: .3rem;}    
     }
 
@@ -189,7 +189,7 @@
     .conta{
       font-size: 3rem;
       color:white;
-      @include breakpoint(100px 900px){
+      @include breakpoint(100px 600px){
         font-size: 1rem;}
     }
   
@@ -202,7 +202,7 @@
     .f-text{
       color: darken(white, 30%);
       font-size: 1.3rem;
-      @include breakpoint(100px 1125px){
+      @include breakpoint(100px 600px){
         font-size:.8rem;}
     }
   
@@ -216,19 +216,19 @@
    }
 
    .skillset{
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
       height:auto;
       width:30%;
    }}
 
    .colum{
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
      flex:50%;
      padding:8px;
    }}
 
    h2{
-    @include breakpoint(100px 1125px){
+    @include breakpoint(100px 600px){
      font-size: .7rem;
     }}
 
