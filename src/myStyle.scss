@@ -162,6 +162,8 @@
       color:white;     
       @include breakpoint(0px 600px){
         font-size: .3rem;}      
+      @include breakpoint(600px 900px){
+        font-size: .5rem;}        
     }
 
     #about {
