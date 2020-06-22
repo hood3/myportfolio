@@ -164,6 +164,13 @@
         font-size: .3rem;}      
       }
 
+      .about-wrapper__info-text{
+        text-align: left;
+        color:white;     
+        @include breakpoint(600px 900px){
+          font-size: .3rem;}      
+        }
+
     #about {
       background: #6317CA;
       background: -webkit-linear-gradient(left, #6317CA, #B975DD);
