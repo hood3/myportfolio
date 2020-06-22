@@ -19,7 +19,7 @@ const Projects = () => {
                 <div className="about-wrapper__info_project">
                     <p className="about-wrapper__info-text">
                         <h2>English Quiz App</h2>
-                        This is an English Quiz App I made for my Capstone Project in Professional Development in
+                        This is an English Quiz Application made for a Capstone Project in Professional Development in
                         Computer Science class. It was designed and developed using the MERN stack theme.
                         It is a useful app for people having trouble with the English language. 
                         This application's front-end and back-end are hosted on Digital Ocean. 
@@ -58,9 +58,9 @@ const Projects = () => {
             <div className="about-wrapper__info_project">
                 <p className="about-wrapper__info-text">
                 <h2>Facial Recognition App</h2>
-                    This is a Facial recognition app I developed for a school project using HTML5, CSS3, JavaScript
+                    This is a Facial recognition application developed for a school project using HTML5, CSS3, JavaScript
                     and REACT.js for the front-end. I used Node.js, Express.js for the server-side of the back-end. 
-                    PostgreSQL was used for the back-end database. This app uses image recognition software from
+                    PostgreSQL was used for the back-end database. This application uses image recognition software from
                     Claraifi API. This application's front-end and back-end are hosted on Heroku.                        
                     <br/><br/>  
                     <a class="cta-btn cta-btn--hero" href='https://facial-image-recognition.herokuapp.com'> 
@@ -96,7 +96,7 @@ const Projects = () => {
             <div className="about-wrapper__info_project">
                 <p className="about-wrapper__info-text">
                 <h2>Byron Hood Digital Portfolio</h2>
-                    This is my digital portfolio which you are viewing now. I developed this for a school project 
+                    This is my digital portfolio which you are viewing now. This was developed for a school project 
                     in Technical Writing class, using React.js. This application is fully responsive and hosted
                     on Netlify. 
                     <br/><br/>                  

@@ -21,7 +21,13 @@
   .cta-btn {
     @include breakpoint(600px 900px){
       font-size: .9rem;
-      line-height: .40;  }}      
+      line-height: .40;  }}  
+      
+  .cta-btn {
+     @include breakpoint(900px 1200px){
+       font-size: 1.2rem;
+       line-height: .55;  }}      
+          
   
   .cta-btn::after {
     content: '';
@@ -104,7 +110,11 @@
     .App-header{
       @include breakpoint(600px 900px){
         min-height:60vh;}}
-  
+
+    .App-header{
+          @include breakpoint(900px 1200px){
+            min-height:80vh;}}
+      
   .pic{
     width:75px;
     height:100px;
@@ -117,6 +127,11 @@
     @include breakpoint(600px 900px){
       width:50px;
       height:65px;}}
+
+      .pic{
+        @include breakpoint(900px 1200px){
+          width:65px;
+          height:80px;}}    
   
   .hood{ 
     text-align: left;
@@ -141,6 +156,14 @@
         padding-left:10px;}
     }
   
+    .hood{
+      @include breakpoint(900px 1200px){
+        text-align: left;
+        font-size: 3.3rem;
+        font-weight: 700;
+        margin-bottom: 5rem;  
+        padding-left:10px;}
+    }
     .aboutMe{
       font-size: 4.6rem;
       color:white;
@@ -153,6 +176,12 @@
     @include breakpoint(600px 900px){
       font-size: 2.9rem;
   }
+}
+
+.aboutMe{    
+  @include breakpoint(900px 1200px){
+    font-size: 3.9rem;
+}
 }
 
     .about-wrapper__image{
@@ -199,6 +228,13 @@
         @include breakpoint(600px 900px){
           font-size: .5rem;}      
         }
+
+        .about-wrapper__info-text{
+          text-align: left;
+          color:white;     
+          @include breakpoint(900px 1200px){
+            font-size: .7rem;}      
+          }     
 
     #about {
       background: #6317CA;
@@ -256,6 +292,12 @@
     @include breakpoint(600px 900px){
       height:auto;
       width:45%;
+   }}   
+
+   .skillset{
+    @include breakpoint(900px 1200px){
+      height:auto;
+      width:68%;
    }}   
 
    .colum{

@@ -24,14 +24,14 @@ const About = () => {
                         self-employed, I built a Clientele, formed a team, handled all concerns, and worked on site, 
                         to the oil and gas industry where I became lead MWD Engineer within two years.
                         Having found a keen interest in computers, I enrolled at Oklahoma Northeastern State University
-                        to gain more computer knowledge, and will receive a Master's Degree in Computer Science in May 2023.
-                        Because of my obsessive attention to detail, my unequivocal desire to create, and my mission-driven
-                        work ethic to learn new technology each day, I enjoy web developing. I make fast load times and 
-                        lag-free interaction high priorities. REACT is a favorite to use whenever possible for front-end 
+                        to gain more computer knowledge, obtaining a Bachelor of Science degree. My goal is to pursue a Master's Degree
+                        in Computer Science in the near future. Because of my obsessive attention to detail, my unequivocal desire to create,
+                        and my mission-driven work ethic to learn new technology each day, I enjoy web developing. Fast load times and 
+                        lag-free interaction are high priorities. REACT is a favorite to use whenever possible for front-end 
                         development so my layouts will be dynamic and will fit any device’s screen, large or small.
-                        I am committed to my passion to continue learning, to help others, and to try to solve problems,
-                        and I have always worked well with co-workers. Therefore, I am eager for an opportunity to make 
-                        an impact at a fast-growing, high-expectation company.                         
+                        I am committed to my passion to continue learning, to help others, and to try to solve problems.
+                        Coordinating projects with team members in college and previous employments has been profuse.Therefore,
+                        I am eager for an opportunity to make an impact at a fast-growing, high-expectation company.                         
                     </p>  
                     <span class="d-flex mt-3">  
                     <Link class="cta-btn cta-btn--hero" to='/resume'>View Resume</Link>    
