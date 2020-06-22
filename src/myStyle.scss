@@ -249,6 +249,12 @@
       width:30%;
    }}   
 
+   .skillset{
+    @include breakpoint(600px 900px){
+      height:auto;
+      width:45%;
+   }}   
+
    .colum{
     @include breakpoint(0px 600px){
      flex:50%;
