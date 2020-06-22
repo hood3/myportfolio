@@ -95,6 +95,10 @@
     @include breakpoint(0px 600px){
       min-height:40vh;
     }}   
+
+    .App-header{
+      @include breakpoint(600px 900px){
+        min-height:60vh;}}
   
   .pic{
     width:75px;
