@@ -162,9 +162,7 @@
       color:white;     
       @include breakpoint(0px 600px){
         font-size: .3rem;}      
-      @include breakpoint(600px 900px){
-        font-size: .5rem;}        
-    }
+      }
 
     #about {
       background: #6317CA;
@@ -226,6 +224,24 @@
 
   .colum{
     @include breakpoint(600px 900px){
+     flex:50%;
+     padding:8px;  
+  }}
+
+  .colum{
+    @include breakpoint(900px 1200px){
+     flex:50%;
+     padding:8px;  
+  }}
+
+  .colum{
+    @include breakpoint(1200px 1800px){
+     flex:50%;
+     padding:8px;  
+  }}
+
+  .colum{
+    @include breakpoint(1800px 5500px){
      flex:50%;
      padding:8px;  
   }}
