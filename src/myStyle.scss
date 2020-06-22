@@ -17,6 +17,11 @@
       font-size: .5rem;
       line-height: .35;  }       
   }
+
+  .cta-btn {
+    @include breakpoint(600px 900px){
+      font-size: .9rem;
+      line-height: .40;  }}      
   
   .cta-btn::after {
     content: '';
@@ -289,6 +294,11 @@
     @include breakpoint(0px 600px){
      font-size: .7rem;
     }}
+
+    h2{
+      @include breakpoint(600px 900px){
+       font-size: 1.0rem;
+      }}
 
     .resume{      
       @include breakpoint(0px 600px){
