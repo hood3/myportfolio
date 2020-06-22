@@ -218,7 +218,7 @@
 
    .colum{
     @include breakpoint(0px 600px){
-     flex:50%;
+     flex:40%;
      padding:8px;  
   }}
 
