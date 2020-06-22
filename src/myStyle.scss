@@ -222,7 +222,10 @@
     @include breakpoint(0px 600px){
      flex:50%;
      padding:8px;  
-  }}
+  }
+  @include breakpoint(600px 900px){
+    flex:50%;
+    padding:8px;  }}
 
    h2{
     @include breakpoint(0px 600px){
