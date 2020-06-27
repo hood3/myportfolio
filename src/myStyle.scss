@@ -352,6 +352,12 @@
         height:750px;}       
     }
 
+    .resume{      
+      @include breakpoint(900px 1200px){
+        width:900px;
+        height:1200px;}       
+    }
+
 
     .page{
       @include breakpoint(0px 600px){
