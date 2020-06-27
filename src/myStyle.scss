@@ -363,8 +363,40 @@
       @include breakpoint(600px 900px){
         width:550px;
         height:750px;}      
+    }    
+    
+    #projectsScroll{
+      padding-left: 500px;      
+      color: #c46fe0;  
+      font-size: 55px;   
+      padding-right: 500px;        
     }
 
+    #projectsScroll:hover{
+      color:purple;
+    }
+
+    #projectsScroll a:hover{
+      color: purple;
+    }
+
+    #contactScroll{
+      color: #c46fe0;  
+      font-size: 55px;  
+    }
+
+    #contactScroll:hover{
+      color:purple;
+    }
+
+    #aboutScroll{
+      color: #c46fe0;  
+      font-size: 55px;  
+    }
+
+    #aboutScroll:hover{
+      color:purple;
+    }
 
 
    
