@@ -12,7 +12,7 @@ class viewResume extends Component {
                     <Link class="cta-btn cta-btn--hero" to='/'>Portfolio</Link> 
                 </div>
                 <Scroll>
-                <img  className="resume" src={resume} alt="this is my resume" height="1200px" width="1600px" />
+                <img  className="resume" src={resume} alt="this is my resume" height="2000px" width="1600px" />
                 </Scroll>
             </div>      
     );
