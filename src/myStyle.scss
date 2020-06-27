@@ -366,19 +366,27 @@
     }    
     
     #projectsScroll{
-      padding-left: 500px;      
+      padding-left: 100px;      
       color: #c46fe0;  
       font-size: 55px;   
-      padding-right: 500px;        
+      padding-right: 100px;        
     }
 
     #projectsScroll:hover{
       color:purple;
     }
 
-    #projectsScroll a:hover{
-      color: purple;
-    }
+    #projectsScroll{    
+    @include breakpoint(0px 600px){
+      font-size:15px;}}
+
+    #projectsScroll{    
+        @include breakpoint(600px 900px){
+          font-size:30px;}}  
+
+          #projectsScroll{    
+            @include breakpoint(900px 1200px){
+              font-size:45px;}}  
 
     #contactScroll{
       color: #c46fe0;  
@@ -389,6 +397,18 @@
       color:purple;
     }
 
+    #contactScroll{    
+      @include breakpoint(0px 600px){
+        font-size:15px;}}
+
+        #contactScroll{    
+          @include breakpoint(600px 900px){
+            font-size:30px;}}  
+
+            #contactScroll{    
+              @include breakpoint(900px 1200px){
+                font-size:45px;}}  
+
     #aboutScroll{
       color: #c46fe0;  
       font-size: 55px;  
@@ -397,6 +417,18 @@
     #aboutScroll:hover{
       color:purple;
     }
+
+    #aboutScroll{    
+      @include breakpoint(0px 600px){
+        font-size:15px;}}
+
+        #aboutScroll{    
+          @include breakpoint(600px 900px){
+            font-size:30px;}}  
+
+            #aboutScroll{    
+              @include breakpoint(900px 1200px){
+                font-size:45px;}}  
 
 
    
