@@ -24,8 +24,8 @@ const About = () => {
                         self-employed, I built a Clientele, formed a team, handled all concerns, and worked on site, 
                         to the oil and gas industry where I became lead MWD Engineer within two years.
                         Having found a keen interest in computers, I enrolled at Oklahoma Northeastern State University
-                        to gain more computer knowledge, obtaining a Bachelor of Science degree. My goal is to pursue a Master's Degree
-                        in Computer Science in the near future. Because of my obsessive attention to detail, my unequivocal desire to create,
+                        to gain more computer knowledge, and obtain a Master of Science Degree in Computer Science. 
+                        Because of my obsessive attention to detail, my unequivocal desire to create,
                         and my mission-driven work ethic to learn new technology each day, I enjoy web developing. Fast load times and 
                         lag-free interaction are high priorities. REACT is a favorite to use whenever possible for front-end 
                         development so my layouts will be dynamic and will fit any device’s screen, large or small.
