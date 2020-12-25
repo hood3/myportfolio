@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">  
       <h1 className="hood">
         <subtitle><img  className="pic" src={favicon} alt="this is my icon" />Byron Hood <br/>
-        Systems Administrator and Full-Stack Web Developer</subtitle>  <br/><nav id="info">
+        Systems Administrator\Full-Stack Web Developer</subtitle>  <br/><nav id="info">
         <a id="aboutScroll" href="#about">ABOUT</a><a id="projectsScroll" href="#project">
           PROJECTS</a><a id="contactScroll" href="#contact">CONTACT</a> </nav>            
       </h1>         
